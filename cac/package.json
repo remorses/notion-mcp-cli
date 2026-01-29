@@ -24,6 +24,7 @@
   ],
   "scripts": {
     "build": "rollup -c",
+    "test": "vitest --run",
     "prepublishOnly": "pnpm build"
   },
   "author": "egoist <0x142857@gmail.com>",
@@ -38,7 +39,8 @@
     "rollup": "^4.40.0",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-esbuild": "^6.2.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^3.1.0"
   },
   "engines": {
     "node": ">=18"
